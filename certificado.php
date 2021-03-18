@@ -4,6 +4,7 @@
 $pfxCertPrivado = 'certificado.pfx';
 $cert_password  = '123456';
 
+//
 if (!file_exists($pfxCertPrivado)) {
    echo "Certificado não encontrado!! " . $pfxCertPrivado;
 }
